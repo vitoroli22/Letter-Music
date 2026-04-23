@@ -25,7 +25,7 @@
 
 ---
 
-# Ficha Técnica
+## Ficha Técnica
 ## Equipe Responsável pela Elaboração
 - Desenvolvedor 1 | Chyntia Freitas Prestes
 - Desenvolvedor 2 | João Vitor Oliveira Simões
@@ -34,7 +34,7 @@
 - Desenvolvedor 5 | Manoele Braga Colares da Costa
 - Desenvolvedor 6 | Tiago dos Santos Mendonça
 
-# Público Alvo 
+## Público Alvo 
 &nbsp;&nbsp;&nbsp;&nbsp;O público-alvo do aplicativo LetterMusic é composto principalmente por jovens e adultos que possuem interesse ativo em música e no hábito de avaliar, comentar e compartilhar opiniões sobre obras musicais.
 Enquadram-se nesse perfil usuários que não desejam apenas ouvir músicas em plataformas de streaming, mas também analisar faixas de forma mais detalhada, considerando aspectos como letra, produção, composição, impacto cultural e qualidade musical.
 Também fazem parte desse público pessoas que acompanham lançamentos, constroem playlists com frequência, seguem artistas e álbuns específicos e valorizam experiências digitais voltadas à expressão de opinião e à interação com avaliações de outros usuários.
