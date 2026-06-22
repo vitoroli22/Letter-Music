@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1080871328366",
+    "project_id": "lettermusic-8378a",
+    "storage_bucket": "lettermusic-8378a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080871328366:android:a26aca71b13a0ae01a647f",
+        "android_client_info": {
+          "package_name": "com.example.lettermusic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2tGS3rTDsrUib6EkQAU2pIZ80uYA3u1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
