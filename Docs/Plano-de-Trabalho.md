@@ -2,8 +2,8 @@
 
 | Nome do Projeto:       | LetterMusic |
 | ---------------------- | --------------------------------- |
-| Versão:                | 1.8                               |
-| Status:                | Front end                         |
+| Versão:                | 2.2                               |
+| Status:                | Finalização                         |
 | Executor Principal:    | João Vitor Oliveira Simões        |
 | Coordenador Principal: | Walter Jonas de Sousa Viana       |
 
@@ -12,15 +12,19 @@
 # HISTÓRICO DE VERSÕES
 | Versão | Responsável                                  | Data                  | Alteração |
 | ------ | -------------------------------------------- | --------------------- | ---------- |
-| 1.0    | Chyntia Freitas, João Vitor e Manoele Braga. | 25/03/2026            | Definição inicial da proposta do projeto.      |
-| 1.1    | João Vitor Oliveira                          | 30/03/2026            | Elaboração dos requisitos funcionais, não funcionais e regras de negócios.  |
+| 1.0    | Chyntia Freitas, João Vitor e Manoele Braga  | 25/03/2026            | Definição inicial da proposta do projeto      |
+| 1.1    | João Vitor Oliveira                          | 30/03/2026            | Elaboração dos requisitos funcionais, não funcionais e regras de negócios  |
 | 1.2    | Lais Samily                                  | 30/03/2026            | Diagrama de Sequência             |
-| 1.3    | Manoele Braga                                | 01/04/2026            | Diagrama de caso de uso           |
-| 1.4    | Tiago Santos                                 | 01/04/2026            | Diagrama de Classe                |
-| 1.5    | João Vitor Oliveira                          | 03/04/2026            | Diagrama de Atividade             |
-| 1.6    | Chyntia Freitas                              | 04/04/2026            | Prototipação das Telas            |
-| 1.7    | Lais Samily                                  | 04/04/2026            | Diagrama de Objetos               |
-| 1.8    | Chyntia Freitas                              | 05/04/2026            | Arquitetura do sistema            |
+| 1.3    | Manoele Braga                          | 01/04/2026            | Diagrama de caso de uso           |
+| 1.4    | Tiago Santos                               | 01/04/2026            | Diagrama de Classe                |
+| 1.5    | João Vitor Oliveira                      | 03/04/2026            | Diagrama de Atividade             |
+| 1.6    | Chyntia Freitas                            | 04/04/2026            | Prototipação das Telas            |
+| 1.7    | Lais Samily                                   | 04/04/2026            | Diagrama de Objetos               |
+| 1.8    | Chyntia Freitas                            | 05/04/2026            | Arquitetura do sistema |
+| 1.9    | Chyntia Freitas, Julia Souza , Manoele Braga     | 17/04/2026            | Implementação das Telas            |
+| 2.0    | João Vitor Oliveira                          | 22/05/2026            | Conexão com banco de dados  |
+| 2.1    | João Vitor Oliveira, Lais Samily, Tiago Santos    | 07/06/2026            | Ajustes Backend  |
+| 2.2    | João Vitor Oliveira, Lais Samily, Tiago Santos    | 22/06/2026            | Atualização da documentação  |
 
 
 ---
@@ -152,7 +156,7 @@ Os usuários deste sistema podem ser classificados da seguinte forma:
 | RN003  | A senha deve conter no mínimo 6 caracteres, incluindo pelo menos uma letra, um número e um caractere especial. | RF001, RF013    |
 | RN004  | Em caso de nome de usuário ou e-mail já cadastrado, o sistema deve informar a indisponibilidade ao usuário. | RF001, RF013       |
 | RN005  | O login deve ser realizado com e-mail e senha previamente cadastrados no sistema. | RF002        |
-| RN006  | A pesquisa de músicas deve permitir busca pelo nome da música ou pelo nome do artista/cantor, e os resultados exibidos devem corresponder ao termo informado pelo usuário. | RF003, RF004    |
+| RN006  | A pesquisa de músicas deve permitir busca pelo nome da música ou pelo nome do álbum, e os resultados exibidos devem corresponder ao termo informado pelo usuário. | RF003, RF004    |
 | RN007  | Na tela de detalhes da música, devem ser exibidas informações da obra, a nota geral calculada e as opções de avaliar, comentar e favoritar. | RF005  |
 | RN008  | A avaliação da música deve variar de 0,5 a 5,0 estrelas, com incrementos de 0,5 estrelas, e cada usuário pode registrar apenas uma avaliação por música, podendo editá-la posteriormente. | RF006    |
 | RN009  | Cada usuário pode registrar apenas um comentário por música avaliada, e esse comentário deve estar vinculado à avaliação realizada. | RF007     |
@@ -207,7 +211,7 @@ Os usuários deste sistema podem ser classificados da seguinte forma:
   Revisão e correção dos requisitos e diagramas elaborados anteriormente. Nessa etapa, todos os integrantes da equipe participarão dos ajustes, remoções, adições e modificações necessárias, com o objetivo de melhorar a clareza, a organização e a coerência da documentação e da modelagem do sistema.
 
 - **Fase III: Desenvolvimento Backend – Abril/Maio:**
-  A elaboração dos modelos conceitual, lógico e físico do banco de dados, além do desenvolvimento do backend do sistema. Nessa etapa, serão estruturadas as bases necessárias para dar suporte às funcionalidades da aplicação.
+  A conexão do banco de dados, além do desenvolvimento do backend do sistema. Nessa etapa, serão estruturadas as bases necessárias para dar suporte às funcionalidades da aplicação.
 
 - **Fase IV: Desenvolvimento Frontend – Maio/Junho:**
   Desenvolvimento da interface do sistema com base nas telas previamente prototipadas. Nessa fase, serão implementadas as funcionalidades visuais da aplicação e realizada a integração com o backend.
